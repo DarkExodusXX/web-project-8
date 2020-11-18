@@ -21,23 +21,23 @@ const App = () => {
   
   return (
     <div className='App'>
-      {url === '/' && (
+      {url === '/web-project-8/' && (
         <>
           <h1>Хотите связаться с нами?</h1>
           <button onClick={handleClick}>Связаться</button>
         </>
       )}
-      {url === '/form' && (
+      {url === '/web-project-8/form' && (
         <>
           <Popup/>
         </>
       )}
-      {url === '/error' && (
+      {url === '/web-project-8/error' && (
         <>
           <h1>Произошла ошибка, попробуйсте позже</h1>
         </>
       )}
-      {url === '/success' && (
+      {url === '/web-project-8/success' && (
         <>
           <h1>Успешно отправленно</h1>
         </>
