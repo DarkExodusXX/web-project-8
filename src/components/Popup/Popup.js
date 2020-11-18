@@ -68,11 +68,11 @@ const Popup = () => {
     }).then((response) => {
       if (response.status === 200) {
         localStorage.clear();
-        window.history.pushState(null, '', '/success');
+        window.history.pushState(null, '', '/web-project-8/success');
         const popStateEvent = new PopStateEvent('popstate', {});
         dispatchEvent(popStateEvent);
       } else {
-        window.history.pushState(null, '', '/error');
+        window.history.pushState(null, '', '/web-project-8/error');
         const popStateEvent = new PopStateEvent('popstate', {});
         dispatchEvent(popStateEvent);
       }

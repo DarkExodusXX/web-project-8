@@ -6,7 +6,7 @@ const App = () => {
   const [url, setUrl] = useState(window.location.pathname);
   
   const handleClick = () => {
-    window.history.pushState({}, '', '/form');
+    window.history.pushState({}, '', '/web-project-8/form');
     const popStateEvent = new PopStateEvent('popstate', {});
     dispatchEvent(popStateEvent);
   };
