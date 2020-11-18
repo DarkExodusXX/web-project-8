@@ -19,7 +19,6 @@ const Popup = () => {
     if (!(/^[а-я]+$/i.test(username))) {
       if (!errorsArr.includes(nameError)) {
         errorsArr.push(nameError);
-        setErrors(errorsArr);
       }
     } else {
       if (errorsArr.includes(nameError)) {
@@ -29,7 +28,6 @@ const Popup = () => {
     if (!isChecked) {
       if (!errorsArr.includes(checkedError)) {
         errorsArr.push(checkedError);
-        setErrors(errorsArr)
       }
     } else {
       if (errorsArr.includes(checkedError)) {
@@ -39,7 +37,6 @@ const Popup = () => {
     if (message.length === 0) {
       if (!errorsArr.includes(messageError)) {
         errorsArr.push(messageError);
-        setErrors(errorsArr)
       }
     } else {
       if (errorsArr.includes(messageError)) {
