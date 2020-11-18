@@ -2,7 +2,7 @@
   "name": "web-project-8",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://darkexodusxx.github.io/web-project-8",
+  "homepage": "https://darkexodusxx.github.io/web-project-8/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
